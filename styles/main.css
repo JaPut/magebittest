@@ -1,0 +1,176 @@
+html, body{height:100%;}
+
+body {
+background: url(../images/Background2.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#box{
+    height: 63vh;
+    width: 70vw;
+    background-color:#2D2D2D;
+    border-radius: 5px;
+    position: relative;
+    top:19%;
+    left: 15%;
+}
+#main{
+    height: 66vh;
+    width: 33vw;
+    background-color:white;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 73%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+}
+#logo{
+    transform: translate(70%,60%);
+}
+#logo2{
+    transform: translate(70%,60%);
+}
+#loginform,#signupform{
+    position: absolute;
+    top:50%;
+    left: 70%;
+    transform: translate(-55%,-50%);
+    z-index: 100;
+}
+#signupform{
+    top:45%;
+    left: 75%;
+    visibility: hidden;
+}
+#loginform h1,#signupform h1{
+    font-family: arial;
+    font-size: 2vw;
+    color: #3e495e;
+    font-weight: 300;
+}
+#loginform input,#signupform input{
+    height: 6vh;
+    width: 20vw;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid rgb(196, 190, 190);
+    margin: 5px;
+}
+#signupform input:focus,#loginform input:focus{
+    height: 7vh;
+    width: 20vw;
+    border: 0px;
+    outline: none;
+    margin: 5px;
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+#signupform input[type="email"]{
+    background-image:url(../images/icmail.png); 
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+#signupform input:focus[type="email"]{
+    background-image:url(../images/icmail_0.png); 
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+#signupform input[type="text"], #loginform input[type="text"]{
+    background-image:url(../images/icuser_1.png); 
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+#signupform input:focus[type="text"], #loginform input:focus[type="text"]{
+    background-image:url(../images/icuser_0.png); 
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+#signupform input[type="password"] ,#loginform input[type="password"]{
+    background-image:url(../images/iclock.png); 
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+#signupform input:focus[type="password"],#loginform input:focus[type="password"]{
+    background-image:url(../images/iclock_0.png); 
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+#loginform button,#signupform button{
+    height: 6vh;
+    width: 11vw;
+    background-color:rgb(235, 124, 20);
+    font-family: monospace;
+    font-size: 2vh;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    margin-top: 30px;
+}
+#loginform button:hover,#signupform button:hover{
+    background-color:rgb(243, 141, 45);
+}
+#login_btn,#signup_btn{
+    height: 6vh;
+    width: 11vw;
+    font-size: 1.5vh;
+    background-color:rgb(49, 49, 49);
+    color:white;
+    border:2px solid rgb(57, 129, 236);
+    border-radius: 35px;
+    outline: none;
+    position: absolute;
+    left: 65%;
+    top:65%;
+    transform: translate(-50%,-50%);
+}
+#signup_btn{
+    left: 18%;
+}
+#login_btn:hover,#signup_btn:hover{
+    background-color:rgb(57, 129, 236);
+    color:white;
+    cursor: pointer;
+}
+#login_msg,#signup_msg{
+    font-family: arial;
+    font-size: 2vw;
+    color:rgb(161, 158, 158);
+    position: absolute;
+    top:35%;
+    left: 71%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#signup_msg{
+    left: 25%;
+}
+
+#small_text{
+    font-size: 1vw;
+}
+.pull-right{
+    float:right!important;
+    font-size: 2.5vh;
+    transform: translate(0%,-200%);
+    color: rgb(151, 148, 148);
+}
+a {
+    text-decoration: none;
+}
+hr{
+width: 20%;
+height: 2px;
+background-color:#49abfe;
+margin-right: 100%;
+margin-top: 15px;
+margin-bottom: 5px;
+border-width: 1px;
+}
+#footer{
+    color:rgb(204, 196, 196);
+    transform: translate(35%,3300%);
+    font-family: arial;
+    font-size: 2vh;
+    font-weight: bold;
+}

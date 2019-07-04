@@ -1,0 +1,129 @@
+body {
+    font-size: 19px;
+}
+h1 {
+  color:black;
+}
+.hhh {
+  text-align: left;
+  font-size: 21px;
+}
+table{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;   
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+    border: 1px solid black;
+    
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid black;  
+}
+tr:hover {
+    background: #F5F5F5;
+}
+form {
+    width: 95%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 1px; 
+    border: 1px solid #8d8989; 
+    border-radius: 5px;
+}
+.input-group {
+    margin: 5px 0px 5px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(17, 15, 15);
+    background: rgb(151, 159, 207);
+    border: none;
+    border-radius: 25px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: rgb(188, 204, 248);
+    color: rgb(12, 11, 11);
+    border-radius: 33px;
+}
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: rgb(15, 15, 15);
+    border-radius: 33px;
+    background: #f1b9b9;
+}
+.msg {
+    margin: 10px auto; 
+    padding: 5px; 
+    border-radius: 5px; 
+    color: #413636; 
+    background: #62b4e4; 
+    border: 1px solid #7107d4;
+    width: 50%;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  header {
+    background-color: rgb(151, 217, 231);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(14, 13, 13);
+  }
+  nav {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background: #ccc;
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    float: left;
+    padding: 10px;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 100vh;
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
